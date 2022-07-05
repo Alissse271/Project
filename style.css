@@ -1,0 +1,116 @@
+body {
+    font-family: Raleway, sans-serif;
+}
+
+.first_section {
+    max-width: 1510px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images/bg.jpg);
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo .box {
+    padding-left: 3px;
+}
+
+.header_naw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 670px;
+}
+
+.header_naw > * {
+    text-align: center;
+    width: 134px;
+    padding: 36px 0;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header_naw a:hover {
+    border-bottom: 3px solid #fff;
+    padding-bottom: -3px;
+}
+
+.header_naw a:active{
+    border-bottom: 3px solid #E71414;
+    color: #E71414;
+}
+
+.line {
+    max-width: 1510px;
+    border-top: 1px solid #fff;  
+}
+
+/* First section */
+
+.first_section_title {
+    margin-top: 130px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.first_section_subtitle {
+    margin-top: 31px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFF;
+}
+
+.section_first_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 120px;
+    height: 80px;
+}
+
+.section_first_button a {
+    background: #FF4343;
+    max-width: 370px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-decoration: none;
+    padding: 30px 92px;
+}
+
+.section_first_button a:hover {
+    background: #E71414;
+}
+
+.section_first_button a:active {
+    background: #FF4343;
+    box-shadow: 4px 4px 30px #FF4343;
+}
