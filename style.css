@@ -1,5 +1,5 @@
 body {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .first_section {
@@ -39,9 +39,13 @@ body {
 }
 
 .header_naw > * {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 134px;
-    padding: 36px 0;
+    height: 28px;
+    padding: 36px 0 33px;
+    border-bottom: 3px solid transparent;
     font-weight: 700;
     font-size: 13px;
     line-height: 15px;
@@ -52,7 +56,6 @@ body {
 
 .header_naw a:hover {
     border-bottom: 3px solid #fff;
-    padding-bottom: -3px;
 }
 
 .header_naw a:active{
