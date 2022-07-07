@@ -164,3 +164,34 @@ body {
     text-align: center;
     overflow: auto;
 }
+
+/* Third section */
+
+.third_section {
+    max-width: 1510px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.works {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 116px;
+}
+
+.work {
+    height: 340px;
+}
+
+.work img {
+    width: 377.5px;
+}
+
+.work:hover {
+
+}
+
+.work:active {
+
+}
