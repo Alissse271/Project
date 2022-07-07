@@ -196,6 +196,8 @@ body {
 
 }
 
+/* Fourth section */
+
 .person_cards {
     display: flex;
     margin-bottom: 114px;
@@ -255,4 +257,74 @@ body {
 
 .person_icon:nth-last-child(1) {
     margin-right: 0;
+}
+
+/* Fifth section */
+
+.fifth_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1510px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 31px;
+}
+
+.content_img {
+    background-size: cover;
+}
+
+.content_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #5C3249;
+    max-height: 490px;
+    padding: 109px 170px 123px 129px;
+}
+
+.quote {
+    font-family: 'Cardo';
+    font-style: italic;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    overflow: auto;
+}
+
+.author {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    overflow: auto;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 114px;
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #7E5D6F;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.dot:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+.dot:active {
+    background: #7E5D6F;
 }
