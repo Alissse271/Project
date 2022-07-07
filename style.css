@@ -188,13 +188,13 @@ body {
     width: 377.5px;
 }
 
-.work:hover {
+/* .work:hover {
 
 }
 
 .work:active {
 
-}
+} */
 
 /* Fourth section */
 
@@ -365,4 +365,127 @@ body {
     color: #FFF;
     height: 77px;
     padding: 0 80px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1510px; 
+    margin-left: auto;
+    margin-right: auto;
+    background: #353C65;
+}
+
+.footer_item {
+    width: 370px;
+    margin-right: 30px;
+}
+
+.footer_item:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.footer_info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 71px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 108px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-bottom: 29px;
+}
+
+.address {
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #FFF;
+    overflow: auto;
+
+}
+
+.social_network {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.social_network p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-bottom: 48px;
+}
+
+.social_icons {
+    display: flex;
+    margin-bottom: 71px;
+}
+
+.social_icon {
+    margin-right: 27px;
+}
+
+.social_icon:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.about_us_name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-bottom: 28px;
+}
+
+.about_us_info {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFF;
+    margin-bottom: 67px;
+    overflow: auto;
+}
+
+.footer_copyright {
+    display: flex;
+    flex-direction: column;
+    max-width: 1510px; 
+    margin-left: auto;
+    margin-right: auto;
+    background: #2C3154;
+}
+
+.copyright {
+    margin: 24px 0;
+    width: 370px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #808080;
+}
+
+.creator {
+    color: #fff;
 }
